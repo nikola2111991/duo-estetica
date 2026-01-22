@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Upoznajte tim Duo Estetica stomatološke ordinacije. Dr Aleksandra Jočić Milinović i tim sa 19 godina iskustva u Novom Beogradu.">
+  <meta name="keywords" content="stomatolog novi beograd, dr aleksandra, zubar blok 22, stomatološka ordinacija tim">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="O nama - Duo Estetica stomatološka ordinacija">
+  <meta property="og:description" content="19 godina posvećenosti vašem osmehu. Upoznajte naš tim i pristup stomatologiji.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2322D3EE'/><text y='.9em' font-size='70' x='50%' text-anchor='middle' fill='%23030712'>D</text></svg>">
+
+  <!-- Google Fonts Preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>O nama - Duo Estetica | Stomatolog Novi Beograd</title>
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Preskoči na sadržaj</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Glavna navigacija">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="Duo Estetica - Početna">
+        <div class="logo-icon">D</div>
+        <span>DuoEstetica</span>
+      </a>
+
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Početna</a>
+        <a href="usluge.html" class="nav-link">Usluge</a>
+        <a href="o-nama.html" class="nav-link active">O nama</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="kontakt.html" class="nav-link">Kontakt</a>
+        <a href="tel:+381642709930" class="nav-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Zakažite termin
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Meni" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" aria-hidden="true">
+    <nav class="mobile-menu-nav">
+      <a href="index.html" class="mobile-menu-link">Početna</a>
+      <a href="usluge.html" class="mobile-menu-link">Usluge</a>
+      <a href="o-nama.html" class="mobile-menu-link">O nama</a>
+      <a href="blog.html" class="mobile-menu-link">Blog</a>
+      <a href="kontakt.html" class="mobile-menu-link">Kontakt</a>
+      <a href="tel:+381642709930" class="mobile-menu-cta">Zakažite termin</a>
+    </nav>
+  </div>
+
+  <!-- Floating Social -->
+  <div class="floating-social" aria-label="Društvene mreže">
+    <a href="https://wa.me/381642709930" class="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+
+  <main id="main">
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Početna</a>
+          <span>/</span>
+          <span class="current">O nama</span>
+        </nav>
+        <h1>O <span class="text-gradient">nama</span></h1>
+        <p>Upoznajte tim koji stoji iza 19 godina poverenja i hiljada osmeha.</p>
+      </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="about-story-section">
+      <div class="container">
+        <div class="about-story">
+          <div class="about-story-image">
+            <img
+              src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Moderna stomatološka ordinacija Duo Estetica"
+              loading="lazy"
+            >
+          </div>
+          <div class="about-story-content">
+            <h2>Naša priča</h2>
+            <p>
+              Duo Estetica je osnovana 2006. godine sa jasnom vizijom: stvoriti stomatološku ordinaciju u kojoj se pacijenti osećaju sigurno, opušteno i zbrinuto. Dr Aleksandra Jočić Milinović, nakon rada u jednoj od najprestižnijih beogradskih ordinacija, odlučila je da otvori sopstvenu praksu i primeni sve što je naučila na pravi način.
+            </p>
+            <p>
+              Danas, nakon 19 godina, ta vizija je postala stvarnost. Nalazimo se u srcu Novog Beograda, u bloku 22, gde smo izgradili odnose poverenja sa stotinama porodica koje nam dolaze generacijama.
+            </p>
+            <p>
+              Naš pristup je jednostavan: kombinujemo savremenu tehnologiju i materijale sa ljudskim pristupom. Svaki pacijent je jedinstven, i tako ga tretiramo.
+            </p>
+
+            <div class="about-values">
+              <div class="about-value">
+                <h4>Poverenje</h4>
+                <p>19 godina na istoj adresi govori više od reči.</p>
+              </div>
+              <div class="about-value">
+                <h4>Kvalitet</h4>
+                <p>Samo materijali i tehnike koje bismo koristili za sebe.</p>
+              </div>
+              <div class="about-value">
+                <h4>Empatija</h4>
+                <p>Razumemo strah i radimo sve da ga otklonimo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Naš tim</div>
+          <h2>Upoznajte tim</h2>
+          <p>Profesionalci posvećeni vašem osmehu i zdravlju.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Dr Aleksandra Jočić Milinović"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-card-content">
+              <h3>Dr Aleksandra Jočić Milinović</h3>
+              <p class="role">Osnivač i glavni stomatolog</p>
+              <p>Diplomirala na Stomatološkom fakultetu u Beogradu. Specijalizacija u estetskoj stomatologiji i protetici. 19+ godina iskustva.</p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="https://images.pexels.com/photos/6749773/pexels-photo-6749773.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Specijalista ortodoncije"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-card-content">
+              <h3>Specijalista ortodoncije</h3>
+              <p class="role">Saradnik</p>
+              <p>Specijalista ortodoncije koji ordinira u našoj ordinaciji. Fiksne i mobilne aparatice za decu i odrasle.</p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-card-image">
+              <img
+                src="https://images.pexels.com/photos/6812567/pexels-photo-6812567.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Oralni hirurg"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-card-content">
+              <h3>Specijalista oralne hirurgije</h3>
+              <p class="role">Saradnik</p>
+              <p>Za složenije hirurške intervencije i implantologiju sarađujemo sa iskusnim specijalistom oralne hirurgije.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Naša ordinacija</div>
+          <h2>Šta nas izdvaja</h2>
+          <p>Oprema i uslovi koje pružamo našim pacijentima.</p>
+        </div>
+
+        <div class="why-us-grid">
+          <div class="why-card">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Sterilizacija</h3>
+            <p>Sve instrumente sterilizujemo u autoklavu po najvišim standardima. Vaša sigurnost je na prvom mestu.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+              </svg>
+            </div>
+            <h3>Klimatizovan prostor</h3>
+            <p>Prijatna temperatura tokom cele godine za vaš komfor tokom tretmana.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="10" rx="2"/>
+                <circle cx="12" cy="5" r="2"/>
+                <path d="M12 7v4"/>
+                <line x1="8" y1="16" x2="8" y2="16"/>
+                <line x1="16" y1="16" x2="16" y2="16"/>
+              </svg>
+            </div>
+            <h3>Pristupačnost</h3>
+            <p>Objekat je prilagođen osobama sa invaliditetom. Lak pristup za sve pacijente.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4"/>
+                <path d="M12 8h.01"/>
+              </svg>
+            </div>
+            <h3>Pet Friendly</h3>
+            <p>Vaši ljubimci su dobrodošli u našu ordinaciju. Ne morate ih ostavljati kod kuće.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="about-story" style="align-items: start;">
+          <div class="about-story-content">
+            <h2>Naša lokacija</h2>
+            <p>
+              Nalazimo se u Bloku 22 na Novom Beogradu, u neposrednoj blizini Kombank Arene. Lako smo dostupni kako automobilom tako i javnim prevozom.
+            </p>
+            <p>
+              <strong>Adresa:</strong><br>
+              Antifašističke borbe 19, lokal 68<br>
+              11070 Novi Beograd
+            </p>
+            <p>
+              <strong>Javni prevoz:</strong><br>
+              Autobuske linije: 17, 67, 68, 18, 74, 88, 601
+            </p>
+            <p>
+              <strong>Radno vreme:</strong><br>
+              Ponedeljak - Petak: 10:00 - 18:00<br>
+              Subota i Nedelja: Zatvoreno
+            </p>
+
+            <div style="margin-top: 32px;">
+              <a href="kontakt.html" class="btn btn-primary">
+                Kontaktirajte nas
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="about-story-image" style="border-radius: 20px; overflow: hidden;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.0!2d20.4!3d44.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDQ4JzAwLjAiTiAyMMKwMjQnMDAuMCJF!5e0!3m2!1sen!2srs!4v1600000000000!5m2!1sen!2srs"
+              width="100%"
+              height="400"
+              style="border:0; filter: grayscale(100%) invert(90%) contrast(90%);"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Lokacija Duo Estetica ordinacije"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Postanite deo naše priče</h2>
+          <p>Pridružite se hiljadama zadovoljnih pacijenata. Zakažite prvi pregled i uverite se zašto nam pacijenti dolaze generacijama.</p>
+          <div class="cta-buttons">
+            <a href="tel:+381642709930" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              Zakažite termin
+            </a>
+            <a href="usluge.html" class="btn btn-secondary">
+              Pogledajte usluge
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">D</div>
+            <span>DuoEstetica</span>
+          </a>
+          <p>Stomatološka ordinacija sa 19 godina iskustva u srcu Novog Beograda. Vaš osmeh je naša misija.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/381642709930" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+            <a href="mailto:ordinacija@duoestetica.net" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Navigacija</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="usluge.html">Usluge</a></li>
+            <li><a href="o-nama.html">O nama</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Usluge</h4>
+          <ul class="footer-links">
+            <li><a href="usluge.html#estetika">Estetska stomatologija</a></li>
+            <li><a href="usluge.html#protetika">Protetika</a></li>
+            <li><a href="usluge.html#decja">Dečja stomatologija</a></li>
+            <li><a href="usluge.html#konzervativa">Plombe i lečenje</a></li>
+            <li><a href="usluge.html#hirurgija">Oralna hirurgija</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Kontakt</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Antifašističke borbe 19,<br>lokal 68, Novi Beograd</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:+381642709930">+381 64 270 9930</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              <span>Pon - Pet: 10:00 - 18:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Duo Estetica. Sva prava zadržana.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Politika privatnosti</a>
+          <a href="#">Uslovi korišćenja</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
